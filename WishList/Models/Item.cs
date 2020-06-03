@@ -16,6 +16,5 @@ namespace WishList.Models
         [Required()]
         public string Description { get; set; }
 
-        public DbSet<Item> Items { get; set; }
     }
 }
