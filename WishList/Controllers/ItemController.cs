@@ -18,7 +18,18 @@ namespace WishList.Controllers
 
         public IActionResult Index()
         {
+       
             return View("Index");
         }
+
+        [HttpGet]
+        public IActionResult Create()
+        {
+
+            return View("Create");
+        }
+
+        
+
     }
 }
